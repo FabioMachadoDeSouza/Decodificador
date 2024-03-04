@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Decodificador</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main class="main container">
+       <header class="cabecalho">
+       <h1>Mensagens Criptografadas</h1>
+       </header>
+    
+    <div class="container-input">
+         <div class="input">
+            <textarea id="input-texto" placeholder="digite seu texto aqui..."></textarea>
+            <p class="texto-atencao">ATENÇÃO somente letras minúsculas e sem acento</p>
+         </div>
+
+    <div id="output">
+         <img src="imagens/interro.png" alt="interrogação">
+         <h2>seu texto aparecerá aqui!</h2>
+         </div>     
+    </div>   
+
+    <div class="buttons">
+        <div class="container-bnt">
+            <button  onclick="criptografar()" class="btn-criptografar">Criptografar</button>
+           <button  onclick="descriptografar()" class="btn-descriptografar">Descriptografar</button>
+        </div>
+    </div>
+</main>
+
+<footer class="rodape">
+    <div class="icons">
+        <a href="https://www.youtube.com/@alura"><ion-icon name="logo-youtube"></ion-icon></a>
+        <a href="https://www.instagram.com/fabiomachadodesouzaa/"><ion-icon name="logo-instagram"></ion-icon></a>
+        <a href="https://www.facebook.com/profile.php?id=100016920009884"><ion-icon name="logo-facebook"></ion-icon></a>
+        </div>
+        <h3>Desenvolvido por Fábio Machado de Souza</h3>
+</footer>
+    
+    <script src="script.js"></script>
+    <script type = "module"  src = "https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script> 
+    <script  nomodule  src = "https://unpkg .com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
